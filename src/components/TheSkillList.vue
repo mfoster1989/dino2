@@ -3,14 +3,14 @@
         <section class="skills-container hidden">
             <h4>Skills</h4>
             <ul class="skills-list">
-                <li v-for="skill in dinosaur.skills">{{skill}}</li>
+                <li v-bind:key="skill" v-for="skill in dinosaur.skills">{{skill}}</li>
             </ul>
         </section>
     </div>
 </template>
 <script>
     export default {
-        name: "SKillList",
+        name: "SkillList",
         props: {
             dinosaur:{
                 type: Object,

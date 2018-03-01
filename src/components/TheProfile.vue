@@ -10,7 +10,7 @@
   </section>
 </template>
 <script>
-import SkillList from "./SkillList"
+import TheSkillList from "./TheSkillList"
 
 export default {
   name: "TheProfile",
