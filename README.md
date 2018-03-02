@@ -22,4 +22,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 # dino2
 
 
-deployed link obsolete-icicle.surge.sh
+deployed link flat-seeddddd.surge.sh
