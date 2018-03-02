@@ -4,10 +4,10 @@
         <main>
           <h2>Profiles</h2>
             <ul>
-              <TheProfile v-for="dinosaur in dinosaursData" v-bind:dinosaur="dinosaur" :key="dinosaur.name"></TheProfile>
+             <li> <TheProfile v-for="dinosaur in dinosaursData" v-bind:dinosaur="dinosaur" :key="dinosaur.name" /></li>
             </ul>
         </main>
-      <TheFooter />
+      <TheFooter/>
   </div>
 </template>
 
@@ -46,7 +46,7 @@ html {
 	margin: 0;
 	padding: 0;
 }
-ul{
+ul {
   list-style: none;
 }
 body {

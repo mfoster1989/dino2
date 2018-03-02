@@ -1,21 +1,22 @@
 <template>
   <section id="profiles">
     <li class="profile-card">
-      <header class="profile-header" v-onclick="seen = !seen">
+      <header class="profile-header" v-on:click="seen = !seen">
         <img src="dinosaur.image" />
         <h2>{{dinosaur.name}}</h2>
       </header>
-      <SkillList v-bind:dinosaur="dinosaur" :class="{hidden : seen}"></SkillList>
+      <TheSkillList v-bind:dinosaur="dinosaur" :class="{hidden : seen}"></TheSkillList>
     </li>
   </section>
 </template>
 <script>
+
 import TheSkillList from "./TheSkillList"
 
 export default {
   name: "TheProfile",
   components: {
-    SkillList
+    TheSkillList
   },
   props: {
     dinosaur: {

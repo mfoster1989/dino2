@@ -10,7 +10,7 @@
 </template>
 <script>
     export default {
-        name: "SkillList",
+        name: "TheSkillList",
         props: {
             dinosaur:{
                 type: Object,
