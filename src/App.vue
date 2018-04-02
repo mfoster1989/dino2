@@ -68,6 +68,7 @@ main section {
   margin: 0 auto;
   width: 50%;
 }
+
 small {
   color: black;
   font-size: .5rem;
