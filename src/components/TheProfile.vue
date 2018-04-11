@@ -2,7 +2,7 @@
   <section id="profiles">
     <li class="profile-card">
       <header class="profile-header" v-on:click="seen = !seen">
-        <img src="dinosaur.image" />
+        <img :src="dinosaur.image" />
         <h2>{{dinosaur.name}}</h2>
       </header>
       <TheSkillList v-bind:dinosaur="dinosaur" :class="{hidden : seen}"></TheSkillList>
